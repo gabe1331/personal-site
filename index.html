@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A random website by Gabe Wright.">
+    <!-- links -->
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <!-- title -->
+    <title>Gabe Wright</title>
+</head>
+<body>
+    <div class="hero-bg">
+        <div class="hero-img-wrapper">
+            <img src="./assets/hero.png" alt="Gabe's animated portrait." class="hero-img"/>
+        </div>
+    </div>
+    <div class="grid">
+
+        <!-- hero -->
+        <nav class="top-nav">
+            <h1 class="title title--hero">Hello, I'm Gabe</h3>
+            <div class="logo-wrapper">
+                <img src="./assets/logo.png" alt="Gabe's logo" class="logo"/>
+            </div>
+        </nav>
+        <h3 class="banner">
+            I'll help you build and fly that gnarly startup all at once.
+        </h3>
+        <nav class="main-nav">
+            <ul class="nav__list">
+                <li class="nav__arrow-icon-wrapper">
+                    <img class="nav__arrow-icon" src ="./assets/icon-arrow.png" alt="scroll arrow"/>
+                </li>
+                <li class="nav__list-item">
+                    <a href="#" class="nav__link">portfolio</a>
+                </li>
+                <li class="nav__list-item">
+                    <a href="#contact" class="nav__link">contact</a>
+                </li>
+                <li class="nav__list-item">
+                    <a href="#about" class="nav__link">about</a>
+                </li>
+            </ul>
+            
+
+        </nav>
+        <!-- about -->
+        <h1 id="about" class="title title--about">About</h1>
+        <div class="body-wrapper body-wrapper--about">
+            <p class="body">
+                My name is Gabe and I’m passionate about 🚧 startups,📱tech, 🌱canna-tech, and 💅 product. I have upwards of 7 years of experience in leadership, mentoring, teaching and almost 5 years with software development, product / UX design, and UI development.
+            </p>
+            <p class="body">
+                If you are interested in working with me on a project or new startup send me a message! 
+            </p>    
+        </div>
+        <!-- contact -->
+        <h1 id="contact" class="title title--contact">Contact</h1>
+        <form class="form" action="https://formspree.io/f/xjvjekqd" method="POST">
+            <label class="form__label">
+                Name
+                <input class="form__input" type="text" name="name">
+            </label>
+            <label class="form__label">
+                Email<input class="form__input" type="email" name="_replyto">
+            </label>
+            <label class="form__label">
+                Message
+                <textarea class="form__message" name="message"></textarea>
+            </label>
+            <button class="button" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
